@@ -1,0 +1,3 @@
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Samples\C++\Direct3D10\Tutorials\Tutorial01\Debug\Tutorial01.exe
+C:\Users\강태성\source\repos\Tutorial01\Debug\Tutorial01.exe
+C:\Users\강태성\source\repos\Engine\Debug\Tutorial01.exe
