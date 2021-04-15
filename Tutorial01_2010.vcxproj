@@ -372,31 +372,31 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <None Include="CGP(1)-Tutorial02-BuffersShadersHLSL-Src\color.ps" />
-    <None Include="CGP(1)-Tutorial02-BuffersShadersHLSL-Src\color.vs" />
+    <None Include="color.ps" />
+    <None Include="color.vs" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CGP(1)-Tutorial02-BuffersShadersHLSL-Src\cameraclass.cpp" />
-    <ClCompile Include="CGP(1)-Tutorial02-BuffersShadersHLSL-Src\colorshaderclass.cpp" />
-    <ClCompile Include="CGP(1)-Tutorial02-BuffersShadersHLSL-Src\d3dclass.cpp" />
-    <ClCompile Include="CGP(1)-Tutorial02-BuffersShadersHLSL-Src\graphicsclass.cpp" />
-    <ClCompile Include="CGP(1)-Tutorial02-BuffersShadersHLSL-Src\inputclass.cpp" />
-    <ClCompile Include="CGP(1)-Tutorial02-BuffersShadersHLSL-Src\main.cpp" />
-    <ClCompile Include="CGP(1)-Tutorial02-BuffersShadersHLSL-Src\modelclass.cpp" />
-    <ClCompile Include="CGP(1)-Tutorial02-BuffersShadersHLSL-Src\systemclass.cpp" />
+    <ClCompile Include="scfile\cameraclass.cpp" />
+    <ClCompile Include="scfile\colorshaderclass.cpp" />
+    <ClCompile Include="scfile\d3dclass.cpp" />
+    <ClCompile Include="scfile\graphicsclass.cpp" />
+    <ClCompile Include="scfile\inputclass.cpp" />
+    <ClCompile Include="scfile\main.cpp" />
+    <ClCompile Include="scfile\modelclass.cpp" />
+    <ClCompile Include="scfile\systemclass.cpp" />
     <ClCompile Include="Tutorial01.cpp" />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CGP(1)-Tutorial02-BuffersShadersHLSL-Src\cameraclass.h" />
-    <ClInclude Include="CGP(1)-Tutorial02-BuffersShadersHLSL-Src\colorshaderclass.h" />
-    <ClInclude Include="CGP(1)-Tutorial02-BuffersShadersHLSL-Src\d3dclass.h" />
-    <ClInclude Include="CGP(1)-Tutorial02-BuffersShadersHLSL-Src\graphicsclass.h" />
-    <ClInclude Include="CGP(1)-Tutorial02-BuffersShadersHLSL-Src\inputclass.h" />
-    <ClInclude Include="CGP(1)-Tutorial02-BuffersShadersHLSL-Src\modelclass.h" />
-    <ClInclude Include="CGP(1)-Tutorial02-BuffersShadersHLSL-Src\systemclass.h" />
     <CLInclude Include="resource.h" />
+    <ClInclude Include="scfile\cameraclass.h" />
+    <ClInclude Include="scfile\colorshaderclass.h" />
+    <ClInclude Include="scfile\d3dclass.h" />
+    <ClInclude Include="scfile\graphicsclass.h" />
+    <ClInclude Include="scfile\inputclass.h" />
+    <ClInclude Include="scfile\modelclass.h" />
+    <ClInclude Include="scfile\systemclass.h" />
     <ResourceCompile Include="Tutorial01.rc" />
   </ItemGroup>
   <ItemGroup>

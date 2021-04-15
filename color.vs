@@ -65,6 +65,6 @@ PixelInputType ColorVertexShader(VertexInputType input)
     
 	// Store the input color for the pixel shader to use.
     output.color = input.color;
-    
+
     return output;
 }
